@@ -13,7 +13,6 @@ window.onload = () => {
     location.reload();
   });
   
-  let randomNumber = Math.floor(Math.random() * 10);
   document.querySelector('#excuse').innerHTML = generateExcuse()
 };
 
